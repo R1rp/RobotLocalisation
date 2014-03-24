@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.lejos.nxt.ldt.LEJOS_LIBRARY_CONTAINER/nxt"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Localisation"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RobotSearch"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/rp-localisation"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/rp-search"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/search"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
