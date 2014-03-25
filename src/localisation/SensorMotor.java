@@ -37,4 +37,13 @@ public class SensorMotor {
 		return result;
 	}
 	
+	public float getbackReading(){
+		turnLeft();
+		turnLeft();
+		float result = (float)sensor.getDistance();
+		turnLeft();
+		turnLeft();
+		return result;
+	}
+	
 }
