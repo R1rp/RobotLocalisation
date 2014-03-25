@@ -14,8 +14,11 @@ public class MotorRun {
 		pilot.setTravelSpeed(7); //set speed
 		pilot.setRotateSpeed(1000); //set rotate speed
 		
+		
 	}
-	
+	public void move(int distance){
+		pilot.travel(distance);
+	}
 	public void AdjLeft(int degree)
 	{
 		pilot.rotate(degree); //rotate left with a degree
